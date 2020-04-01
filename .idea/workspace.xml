@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a43015f2-e99b-4c99-97eb-2e2fb9cc09a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/telegram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bot.py" afterDir="false" />
     </list>
@@ -32,7 +31,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/telegramapi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -88,22 +92,22 @@
       <screen x="0" y="27" width="1366" height="698" />
     </state>
     <state x="466" y="133" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.698@0.27.1366.698" timestamp="1585714600620" />
-    <state width="1343" height="161" key="GridCell.Tab.0.bottom" timestamp="1585766196008">
+    <state width="1343" height="161" key="GridCell.Tab.0.bottom" timestamp="1585774317571">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state width="1343" height="161" key="GridCell.Tab.0.bottom/0.27.1366.698@0.27.1366.698" timestamp="1585766196008" />
-    <state width="1343" height="161" key="GridCell.Tab.0.center" timestamp="1585766196007">
+    <state width="1343" height="161" key="GridCell.Tab.0.bottom/0.27.1366.698@0.27.1366.698" timestamp="1585774317571" />
+    <state width="1343" height="161" key="GridCell.Tab.0.center" timestamp="1585774317570">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state width="1343" height="161" key="GridCell.Tab.0.center/0.27.1366.698@0.27.1366.698" timestamp="1585766196007" />
-    <state width="1343" height="161" key="GridCell.Tab.0.left" timestamp="1585766196007">
+    <state width="1343" height="161" key="GridCell.Tab.0.center/0.27.1366.698@0.27.1366.698" timestamp="1585774317570" />
+    <state width="1343" height="161" key="GridCell.Tab.0.left" timestamp="1585774317570">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state width="1343" height="161" key="GridCell.Tab.0.left/0.27.1366.698@0.27.1366.698" timestamp="1585766196007" />
-    <state width="1343" height="161" key="GridCell.Tab.0.right" timestamp="1585766196008">
+    <state width="1343" height="161" key="GridCell.Tab.0.left/0.27.1366.698@0.27.1366.698" timestamp="1585774317570" />
+    <state width="1343" height="161" key="GridCell.Tab.0.right" timestamp="1585774317570">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state width="1343" height="161" key="GridCell.Tab.0.right/0.27.1366.698@0.27.1366.698" timestamp="1585766196008" />
+    <state width="1343" height="161" key="GridCell.Tab.0.right/0.27.1366.698@0.27.1366.698" timestamp="1585774317570" />
     <state width="1343" height="202" key="GridCell.Tab.1.bottom" timestamp="1585766010323">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
@@ -128,6 +132,10 @@
       <screen x="0" y="27" width="1366" height="698" />
     </state>
     <state x="339" y="202" key="com.intellij.ide.util.TipDialog/0.27.1366.698@0.27.1366.698" timestamp="1585746816967" />
+    <state x="451" y="295" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585774137703">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="451" y="295" width="454" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.698@0.27.1366.698" timestamp="1585774137703" />
     <state x="346" y="46" width="672" height="678" key="search.everywhere.popup" timestamp="1585510626576">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
@@ -138,17 +146,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Bot.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Bot.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Bot.py</url>
-          <line>27</line>
+          <line>9</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
