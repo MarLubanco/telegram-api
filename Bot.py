@@ -2,20 +2,36 @@
 import telepot
 from flask import Flask, request #import main Flask class and request object
 
-app = Flask(__name__) #create the Flask app
-
-@app.route('/index',  methods=['GET','POST'])
+app = Flask(__name__)
+@app.route('/',  methods=['GET','POST'])
 def formexample():
     if request.method == 'POST':
         mensagem = str(request.form.get("mensagem").encode('utf-8'))
         document = str(request.form.get("documento"))
         bot = telepot.Bot("1138404020:AAEI3k-kO5gSFr9YAXd4C3SkeQVeuY8KVZk")
-        botCreate = bot.getMe()
-        contatos = bot.getUpdates()
+
+        bancoData = open("database-ids.txt", "r")
+        idsContatosExistentes = bancoData.read() # Busca os dados do banco de dados
+        bancoData.close()
         idsContatos = []
+        idsContatos = idsContatosExistentes.split("\n")
+        idsContatos = list(idsContatos)
+
+        contatos = bot.getUpdates()  # Encontra novos contatos
+
+        database = open("database-ids.txt", "w")
+
         for contato in contatos:
-            idsContatos.append(contato['message']['from']['id'])
+            idNovo = contato['message']['from']['id']
+            if idsContatos and str(idNovo) not in idsContatos:
+                database.writelines(str(idNovo))
+                idsContatos.append(idNovo)
         idsContatos = list(set(idsContatos))
+        database.close()
+
+
+        botCreate = bot.getMe()
+
         for id in idsContatos:
             bot.sendMessage(id, mensagem)
             if (document):
